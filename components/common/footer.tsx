@@ -14,22 +14,9 @@ export default function Footer() {
       justifyContent="center"
       alignItems="center"
     >
+  
       <Text>
-        All test on this website is based on this{" "}
-        <Link
-          href="http://www.lrjj.cn/encrm1.0/public/upload/MBTI-personality-test.pdf"
-          target="_blank"
-        >
-          <Button
-            colorScheme="primary"
-            variant="link"
-          >
-            source
-          </Button>
-        </Link>
-      </Text>
-      <Text>
-        🔨 Made by{" "}
+        🔨All test on this website is based on this{" "}
         <Link
           href="https://www.mbtitestfree.com"
           target="_blank"
