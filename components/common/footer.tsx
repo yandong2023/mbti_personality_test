@@ -31,14 +31,14 @@ export default function Footer() {
       <Text>
         🔨 Made by{" "}
         <Link
-          href="https://github.com/rauf-21"
+          href="https://www.mbtitestfree.com"
           target="_blank"
         >
           <Button
             colorScheme="primary"
             variant="link"
           >
-            rauf-21
+            MBTI test 
           </Button>
         </Link>
       </Text>
