@@ -27,7 +27,7 @@ export default function HomePage() {
             textAlign="center"
           >
             <Highlight
-              query="MBTI Personality Test"
+              query="MBTI Personality Test | MBTI test free"
               styles={{
                 py: 1,
                 px: 4,
