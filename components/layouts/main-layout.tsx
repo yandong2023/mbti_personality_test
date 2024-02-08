@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import { Flex } from "@chakra-ui/react";
 
 import Nav from "../common/nav";
+import Faqs from "../common/Faqs";
 import Footer from "../common/footer";
 
 interface MainLayoutProps {
@@ -37,6 +38,7 @@ export default function MainLayout(props: MainLayoutProps) {
       >
         {props.children}
       </Flex>
+      <Faqs/>
       <Footer />
     </>
   );
