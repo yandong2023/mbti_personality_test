@@ -13,7 +13,7 @@ export default function MainLayout(props: MainLayoutProps) {
   return (
     <>
       <Head>
-        <title>MBTI Personality Test</title>
+        <title>MBTI Personality Test | MBTI test free</title>
         <meta
           name="description"
           content="MBTI Personality Test"
