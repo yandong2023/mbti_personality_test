@@ -52,7 +52,7 @@ export default function HomePage() {
               variant="outline"
               rightIcon={<FiArrowRight size={20} />}
             >
-              Take Test
+              Test for free
             </Button>
           </Link>
         </Flex>
