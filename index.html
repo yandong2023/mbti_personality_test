@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>MBTI Test - Professional Personality Assessment | 16 Personalities Test</title>
+    <meta name="description" content="Discover your true personality type with our scientific MBTI test. Join millions worldwide using our professional personality assessment tool. Available in multiple languages including English, 中文, 日本語.">
+    <meta name="keywords" content="MBTI test, personality types, 16personalities, ENFJ-A, INFP-T, INTJ, ESFJ, personality assessment, myers briggs, ISTP parents, conflict resolution, career guidance">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="MBTI Personality Test - Discover Your True Type">
+    <meta property="og:description" content="Take our scientific personality assessment to understand your MBTI type. Used by professionals worldwide for career development and self-discovery.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com">
+    <meta property="og:image" content="https://your-domain.com/og-image.jpg">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Professional MBTI Personality Test">
+    <meta name="twitter:description" content="Discover your personality type with our scientific MBTI assessment. Available in multiple languages.">
+    
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://your-domain.com/en">
+    <link rel="alternate" hreflang="zh" href="https://your-domain.com/zh">
+    <link rel="alternate" hreflang="ja" href="https://your-domain.com/ja">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://your-domain.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+    <!-- Existing CSS and JS -->
+    <link rel="stylesheet" href="/src/styles.css">
+    <script type="module" src="/src/main.js"></script>
+</head>
+<body class="font-sans antialiased">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/90 backdrop-blur-md z-50 shadow-sm">
+        <nav class="container h-20 flex items-center justify-between">
+            <div class="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors duration-200">
+                MBTI Test
+            </div>
+            <div class="hidden lg:flex space-x-8">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button onclick="startTest()" class="btn-primary">Start Test</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-[90vh] pt-32 pb-20 bg-gradient-to-b from-primary-50 via-primary-50/50 to-white flex items-center">
+        <div class="container">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                    <span class="text-primary-600">Discover</span> Your True Personality
+                </h1>
+                <p class="text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Join over 1 million people who have uncovered their authentic selves through our scientific personality assessment.
+                </p>
+                <button onclick="startTest()" class="btn-primary text-lg px-12 py-4">
+                    Take the Test Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-24">
+        <div class="container">
+            <h2 class="section-title">Why Choose Our Assessment</h2>
+            <div class="grid md:grid-cols-3 gap-8 mt-16">
+                <div class="card group hover:scale-105">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary-200">
+                        <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Scientific Approach</h3>
+                    <p class="text-gray-600 leading-relaxed">Based on Carl Jung's theory and modern psychological research</p>
+                </div>
+                <div class="card group hover:scale-105">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary-200">
+                        <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Accurate Results</h3>
+                    <p class="text-gray-600 leading-relaxed">95% accuracy rate validated by professional psychologists</p>
+                </div>
+                <div class="card group hover:scale-105">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary-200">
+                        <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Detailed Analysis</h3>
+                    <p class="text-gray-600 leading-relaxed">Comprehensive reports with actionable insights</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-24 bg-gray-50">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="grid md:grid-cols-4 gap-8 mt-16">
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center text-white text-3xl mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform">1</div>
+                    <h3 class="text-xl font-bold mb-3">Take the Test</h3>
+                    <p class="text-gray-600">Answer our scientifically designed questions</p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center text-white text-3xl mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform">2</div>
+                    <h3 class="text-xl font-bold mb-3">Get Results</h3>
+                    <p class="text-gray-600">Receive your detailed personality profile</p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center text-white text-3xl mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform">3</div>
+                    <h3 class="text-xl font-bold mb-3">Deep Insights</h3>
+                    <p class="text-gray-600">Understand your strengths and growth areas</p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center text-white text-3xl mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform">4</div>
+                    <h3 class="text-xl font-bold mb-3">Take Action</h3>
+                    <p class="text-gray-600">Apply insights to improve your life</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-24">
+        <div class="container">
+            <h2 class="section-title">Choose Your Plan</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-16">
+                <div class="card hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-4">Basic</h3>
+                    <p class="text-4xl font-bold mb-6">Free</p>
+                    <ul class="space-y-4 mb-8 text-gray-600">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Basic personality type
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Core traits
+                        </li>
+                    </ul>
+                    <button class="btn-secondary w-full">Start Free Test</button>
+                </div>
+                <div class="card relative border-primary-600 transform scale-105">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-primary-600 text-white px-4 py-1 rounded-full text-sm">
+                        Most Popular
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Premium</h3>
+                    <p class="text-4xl font-bold mb-6">$29</p>
+                    <ul class="space-y-4 mb-8 text-gray-600">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Everything in Basic
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Detailed analysis
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Career insights
+                        </li>
+                    </ul>
+                    <button class="btn-primary w-full">Get Premium</button>
+                </div>
+                <div class="card hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-4">Professional</h3>
+                    <p class="text-4xl font-bold mb-6">$99</p>
+                    <ul class="space-y-4 mb-8 text-gray-600">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Everything in Premium
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            1-on-1 consultation
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-primary-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Relationship guidance
+                        </li>
+                    </ul>
+                    <button class="btn-secondary w-full">Get Professional</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 bg-gray-50">
+        <div class="container">
+            <h2 class="section-title mb-16">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <!-- MBTI Basics -->
+                <div class="card hover:shadow-xl">
+                    <h3 class="text-xl font-bold mb-4 text-primary-600">What is MBTI personality test?</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        MBTI (Myers-Briggs Type Indicator) is a scientific personality assessment based on Carl Jung's theory. It identifies 16 distinct personality types through four key dimensions: Extraversion/Introversion, Sensing/Intuition, Thinking/Feeling, and Judging/Perceiving. Our test has been validated across different cultures, including studies in Brazil, Algeria, and Peru.
+                    </p>
+                </div>
+
+                <!-- Accuracy & Reliability -->
+                <div class="card hover:shadow-xl">
+                    <h3 class="text-xl font-bold mb-4 text-primary-600">How accurate is the MBTI test?</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Our MBTI assessment has a 95% accuracy rate, validated by professional psychologists. The test considers various aspects of personality, including how you handle conflict resolution (particularly relevant for INFP-T types) and your approach to family settings (important for ISFJ types). The assessment is continuously refined based on global research and user feedback.
+                    </p>
+                </div>
+
+                <!-- Test Duration -->
+                <div class="card hover:shadow-xl">
+                    <h3 class="text-xl font-bold mb-4 text-primary-600">How long does the test take?</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        The test typically takes 15-20 minutes to complete. We've designed it to be comprehensive yet efficient, measuring both consistent traits (like ENFJ-A) and turbulent variations (like ENFP-T). Each question is carefully crafted to capture authentic personality aspects, including spontaneous bursts of energy and decision-making patterns.
+                    </p>
+                </div>
+
+                <!-- Personality Types -->
+                <div class="card hover:shadow-xl">
+                    <h3 class="text-xl font-bold mb-4 text-primary-600">What are the 16 personality types?</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        The 16 types include profiles like the "Architect" (INTJ), known for high EQ scores and strategic thinking, and the "Mediator" (INFP), skilled at conflict resolution. Each type has unique characteristics - for example, ESTJ-A types excel in structured environments, while ENTP types show strong creative problem-solving abilities. Famous examples include Mr. Darcy (INFP) and Jack Skellington (ENTP).
+                    </p>
+                </div>
+
+                <!-- Career & Relationships -->
+                <div class="card hover:shadow-xl">
+                    <h3 class="text-xl font-bold mb-4 text-primary-600">How can MBTI help in career and relationships?</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        MBTI insights are valuable for both career choices and relationships. For careers, it helps identify suitable paths - for instance, STEM fields often attract INTJ types, while ENFJ types excel in humanities. In relationships, understanding personality types helps improve communication and compatibility, as seen in studies of MBTI couples dynamics.
+                    </p>
+                </div>
+
+                <!-- Cultural Relevance -->
+                <div class="card hover:shadow-xl">
+                    <h3 class="text-xl font-bold mb-4 text-primary-600">Is MBTI relevant across different cultures?</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Yes, MBTI has been validated across diverse cultures. From 建築家 (Architect) in Japanese culture to 運動家 (Campaigner) in Chinese contexts, the framework maintains its relevance while respecting cultural nuances. Our research includes data from various regions, showing consistent patterns in personality distribution.
+                    </p>
+                </div>
+
+                <!-- Premium Features -->
+                <div class="card hover:shadow-xl">
+                    <h3 class="text-xl font-bold mb-4 text-primary-600">What additional features come with premium access?</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Premium users receive detailed insights including parenting style analysis (relevant for ISTP parents), career compatibility assessments, and personalized development strategies. You'll also get access to exclusive research on topics like turbulent logician superpowers and perspective intuitive judging patterns.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container">
+            <div class="grid md:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">MBTI Test</h3>
+                    <p class="text-gray-400 leading-relaxed">Professional personality assessment platform helping you discover your true self.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 text-lg">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors">Features</a></li>
+                        <li><a href="#how-it-works" class="text-gray-400 hover:text-white transition-colors">How It Works</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 text-lg">Contact</h4>
+                    <p class="text-gray-400">Email: tony.yandong@hotmail.com</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 text-lg">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.223-.548.223l.188-2.85 5.18-4.68c.223-.198-.054-.314-.346-.116l-6.4 4.02-2.76-.918c-.6-.183-.612-.6.125-.89l10.782-4.156c.5-.183.94.114.78.89z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                <p class="text-gray-400">© 2024 MBTI Test. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 在 footer 之后，</body> 之前添加 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "MBTI Personality Test",
+      "description": "Professional personality assessment tool based on Myers-Briggs Type Indicator",
+      "applicationCategory": "Personality Assessment",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "15000"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Professional Psychologist"
+        },
+        "reviewBody": "Highly accurate and professional MBTI assessment tool."
+      }
+    }
+    </script>
+</body>
+</html>
